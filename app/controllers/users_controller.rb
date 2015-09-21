@@ -7,7 +7,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    STATSD.time("find_user") do
+      @user = User.find(params[:id])
+    end
     unless current_user.admin?
       unless @user == current_user
         redirect_to :back, :alert => "Access denied."
@@ -27,6 +29,7 @@ class UsersController < ApplicationController
   def destroy
     user = User.find(params[:id])
     user.destroy
+    STATSD.increment "user.deleted"
     redirect_to users_path, :notice => "User deleted."
   end
 
