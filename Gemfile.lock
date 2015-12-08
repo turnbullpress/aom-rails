@@ -145,6 +145,14 @@ GEM
     kgio (2.10.0)
     launchy (2.4.3)
       addressable (~> 2.3)
+    lograge (0.3.5)
+      actionpack (>= 3)
+      activesupport (>= 3)
+      railties (>= 3)
+    logstash-event (1.2.02)
+    logstash-logger (0.15.2)
+      logstash-event (~> 1.2)
+      stud
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -272,6 +280,7 @@ GEM
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     statsd-ruby (1.2.1)
+    stud (0.0.22)
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.1)
@@ -330,6 +339,9 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   launchy
+  lograge
+  logstash-event
+  logstash-logger
   pry-rails
   pry-rescue
   rails (= 4.2.4)

@@ -30,6 +30,7 @@ class UsersController < ApplicationController
     user = User.find(params[:id])
     user.destroy
     STATSD.increment "user.deleted"
+    logger.info message: 'user_deleted', user: @user
     redirect_to users_path, :notice => "User deleted."
   end
 
