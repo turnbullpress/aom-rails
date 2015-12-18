@@ -59,5 +59,5 @@ Rails.application.configure do
   config.log_level = :info
   config.lograge.enabled = true
   config.lograge.formatter = Lograge::Formatters::Logstash.new
-  config.logger = LogStashLogger.new(type: :tcp, host: 'logstash.example.com', port: )
+  #config.logger = LogStashLogger.new(type: :tcp, host: 'logstash.example.com', port: 2020)
 end
