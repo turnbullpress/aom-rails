@@ -27,6 +27,7 @@ gem 'statsd-ruby'
 gem 'lograge'
 gem 'logstash-event'
 gem 'logstash-logger'
+gem 'riemann-client'
 group :development do
   gem 'better_errors'
   gem 'capistrano', '~> 3.0.1'
