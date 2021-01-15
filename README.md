@@ -64,7 +64,11 @@ grep -rl "ActiveRecord::Migration$" db | xargs sed -i 's/ActiveRecord::Migration
 ```
 rails db:migrate RAILS_ENV=development
 ```
-Now you can access to the application through localhost or your own IP setting.
+Now you can run the server with the following command:
+```
+rails server -b 0.0.0.0 -p 3000 -e development
+```
+And you can access the rails application through localhost or your own networking and IP settings.
 
 Default user is:
 
