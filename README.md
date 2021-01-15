@@ -21,7 +21,11 @@ Next download the RVM installation script from the project’s website with the 
 ```
 curl -sSL https://get.rvm.io | bash -s stable
 ```
-After the installation is completed you will get the starting source path and it looks like this ```source /home/vagrant/.rvm/scripts/rvm```.
+After the installation is completed you will get the starting source path and it looks like this ```source /home/vagrant/.rvm/scripts/rvm```, or you can run the following command:
+
+```
+source ~/.rvm/scripts/rvm
+```
 
 Next you can install any version of ruby, in our case we need ruby-2.6.3 to run the application with the following command:
 
