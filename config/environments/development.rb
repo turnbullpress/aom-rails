@@ -25,7 +25,9 @@ Rails.application.configure do
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
-  config.assets.debug = true
+  # stackoverflow.com/questions/35683185/rails-sprocketsrailshelperassetnotprecompiled-in-development
+  config.assets.debug = false
+  config.assets.check_precompiled_asset = false
 
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
