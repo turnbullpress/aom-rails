@@ -11,12 +11,12 @@ Before installing the application we are going to install ruby with RVM (Ruby Ve
 sudo apt-get install gcc autoconf curl g++  gnupg automake bison libc6-dev libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev pkg-config sqlite3 zlib1g-dev libtool libyaml-dev make libgmp-dev libreadline-dev libssl-dev nodejs -y
 
 ```
-And then we install the key with the following command:
+Next install the key with the following command:
 
 ```
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ```
-Next we have to download the RVM installation script from the project’s website with the following command:
+Next download the RVM installation script from the project’s website with the following command:
 
 ```
 curl -sSL https://get.rvm.io | bash -s stable
@@ -38,7 +38,7 @@ To check the installed ruby version run the following command:
 ```
 ruby -v
 ```
-For mor type of installation check this article [How to Install Ruby on Ubuntu 18.04](https://www.atlantic.net/vps-hosting/how-to-install-ruby-on-ubuntu-18-04/)
+For more types of installation check this article [How to Install Ruby on Ubuntu 18.04](https://www.atlantic.net/vps-hosting/how-to-install-ruby-on-ubuntu-18-04/)
 
 ### Download Rails Application
 
@@ -47,7 +47,7 @@ Download the rails application to your environment with any method you prefer, w
 ```
 git clone https://github.com/turnbullpress/aom-rails.git
 ```
-Next you can follow along with the Art of Monitoring book on printed page number 439. or test the application before contenio to the book by installing gem with bundle inside the aom-rails directory with the following command:
+Next you can follow along with the Art of Monitoring book on printed page number 439. or test the application before continue to the book by installing gem with bundle inside the aom-rails directory with the following command:
 
 ```
 bundle install
