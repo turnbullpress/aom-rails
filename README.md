@@ -1,11 +1,11 @@
 # Art of Monitoring Example Rails Application
 
-In this document we will walk you through the installation steps. This application requires specific version of ruby. And we are going to install it in ubuntu 18.04 and CentOS 8.
+In this document we will walk you through the installation steps. This application requires specific version of Ruby. And we are going to install it in Ubuntu 18.04 and CentOS 8.
 
 ## Installing Rails Application on Ubuntu 18.04 and CentOS 8
 
 ### Install Ruby-2.6.3
-Before installing the application we are going to install ruby with RVM (Ruby Version Manager). But first we need to install some dependencies with the following command:
+Before installing the application we are going to install Ruby with RVM (Ruby Version Manager). But first we need to install some dependencies with the following command:
 
 ### Step 1
 
@@ -52,7 +52,7 @@ source ~/.rvm/scripts/rvm
 
 ### Step 5
 
-Next you can install any version of ruby, in our case we need ruby-2.6.3 to run the application on Ubuntu 18.04 or CentOS 8 with the following command:
+Next you can install any version of Ruby, in our case we need ruby-2.6.3 to run the application on Ubuntu 18.04 or CentOS 8 with the following command:
 ```
 rvm install "ruby-2.6.3"
 ```
@@ -64,7 +64,7 @@ After the installation is completed run the following command on Ubuntu 18.04 or
 rvm use 2.6.3 --default
 ```
 
-To check the installed ruby version run the following command:
+To check the installed Ruby version run the following command:
 ```
 ruby -v
 ```
@@ -72,7 +72,7 @@ For more types of installation check this article [How to Install Ruby on Ubuntu
 
 ### Download Rails Application
 
-Download the rails application to Ubuntu 18.04 or CentOS 8 with any method you prefer, we are going to clone it with the following command:
+Download the Rails application to Ubuntu 18.04 or CentOS 8 with any method you prefer, we are going to clone it with the following command:
 
 ```
 git clone https://github.com/turnbullpress/aom-rails.git
@@ -94,7 +94,7 @@ Now you can run the server with the following command:
 ```
 rails server -b 0.0.0.0 -p 3000 -e development
 ```
-And you can access the rails application through localhost or your own networking and IP settings.
+And you can access the Rails application through localhost or your own networking and IP settings.
 
 Default user is:
 
