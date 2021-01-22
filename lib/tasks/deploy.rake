@@ -9,7 +9,7 @@ namespace :deploy do
 
   desc "Notify Riemann of a deployment"
   task :notify do
-    c = Riemann::Client.new host: '104.131.69.159', port: 5555, timeout: 5
+    c = Riemann::Client.new host: 'riemanna.example.com', port: 5555, timeout: 5
 
     c << {
       service: "aom-rails.#{Rails.env}.code_deploy",
