@@ -77,7 +77,7 @@ Download the rails application to Ubuntu 18.04 or CentOS 8 with any method you p
 ```
 git clone https://github.com/turnbullpress/aom-rails.git
 ```
-Next you can follow along with the Art of Monitoring book on printed page number 439. or test the application before continue to the book by installing gem with bundle, inside the aom-rails directory run the following command:
+Next, you can follow the Art of Monitoring book in the "Building Monitored Applications" chapter. or test the application before continue to the book by installing Ruby gems with bundler, inside the aom-rails directory run the following command:
 
 ```
 bundle install
