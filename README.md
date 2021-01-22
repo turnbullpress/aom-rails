@@ -7,7 +7,7 @@ In this document we will walk you through the installation steps. This applicati
 ### Install Ruby-2.6.3
 Before installing the application we are going to install ruby with RVM (Ruby Version Manager). But first we need to install some dependencies with the following command:
 
-### Step 1 
+### Step 1
 
 On Ubuntu 18.04:
 ```
@@ -45,7 +45,7 @@ curl -sSL https://get.rvm.io | bash -s stable
 
 ### Step 4
 
-After the installation is completed you will get the starting source path and it looks like this ```source /home/vagrant/.rvm/scripts/rvm```, or you can run the following command on Ubuntu 18.04 or CentOS 8:
+After the installation is completed you will get the starting source path and it will look like this ```source /home/YourUserName/.rvm/scripts/rvm``` where the "YourUserName" is a variable according to your installation, or you can run the following command on Ubuntu 18.04 or CentOS 8:
 ```
 source ~/.rvm/scripts/rvm
 ```
