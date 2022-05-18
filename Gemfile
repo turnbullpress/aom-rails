@@ -8,7 +8,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'nokogiri', '1.11.0'
+gem 'nokogiri', '1.13.5'
 group :development, :test do
   gem 'byebug'
 end
